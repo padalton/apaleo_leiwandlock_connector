@@ -1,0 +1,5 @@
+/api/daypilot.sqlite
+/.idea
+/composer.lock
+/vendor
+/config.php

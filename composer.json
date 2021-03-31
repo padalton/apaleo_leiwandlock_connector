@@ -1,0 +1,14 @@
+{
+  "require": {
+    "chillerlan/php-qrcode": "^3.2",
+    "phpmailer/phpmailer": "^6.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "chillerlan\\QRCode\\": "/vendor/chillerlan/php-qrcode/src/",
+      "chillerlan\\Settings\\": "/vendor/chillerlan/php-settings-container/src/"
+    }
+  }
+}
